@@ -30,7 +30,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Alert will not show when form field is blank. }_
+_{Alert will not show when form field is blank or for non-numbers. }_
 
 ## Support and contact details
 

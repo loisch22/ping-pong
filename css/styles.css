@@ -69,6 +69,25 @@ p.list {
   letter-spacing: 3px;
   padding: 10px;
 }
-@media query {
- LUNCH COMMIT
+@media only screen and (max-width: 768px) {
+    body{
+      background: #CBBEB5;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    h3 {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+    label {
+      font-size: 18px;
+      margin: 10px;
+      letter-spacing: 2px;
+    }
+    .btn-default {
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
 }

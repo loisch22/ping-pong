@@ -4,7 +4,7 @@ var pingPong = function(inputNumber) {
   var numberOutput = [];
 debugger;
   for (i = 1; i <= copyNumber; i++) {
-    if (copyNumber[i] / 3) {
+    if (copyNumber[i] % 3 === 0) {
       numberOutput.push([i] = "ping");
     } else if (copyNumber[i] === copyNumber) {
       numberOutput.push(i);

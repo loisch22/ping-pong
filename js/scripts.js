@@ -4,15 +4,16 @@ var pingPong = function(inputNumber) {
   var numberOutput = [];
 debugger;
   for (var i = 1; i <= copyNumber; i++) {
-    if (copyNumber[i] % 3 === 0) {
-      numberOutput.push([i] = "ping");
+    if (i % 3 === 0) {
+      var ping = [i].slice();
+      numberOutput.push(ping = '"ping"');
     } else if (copyNumber[i] === copyNumber) {
       numberOutput.push(i);
     } else {
       numberOutput.push(i);
     }
   };
-    return numberOutput.toString();
+    return numberOutput;
 };
 
 

@@ -29,7 +29,7 @@ $(document).ready(function() {
     if (inputNumber === '' || inputNumber === null || inputNumber === NaN || inputNumber === undefined) {
       alert("Don't forget to enter a number!");
     }
-
+    
     $("#results").text(resultOutput);
 
     event.preventDefault();

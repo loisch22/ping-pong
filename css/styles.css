@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-image: url("../img/ping-pong.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}

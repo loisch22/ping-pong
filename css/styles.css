@@ -16,13 +16,15 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100vw;
+  height: 100%;
   font-family: sans-serif;
   background-color: #CBBEB5;
+  background attachment: fixed;
   opacity: 1px;
   text-align: center;
+  overflow: hidden;
 }
 h1 {
-  text-align: center;
   font-size: 80px;
   letter-spacing: 18px;
   margin-top: 15%;
@@ -31,20 +33,29 @@ h1 {
 }
 .well {
   margin: 0 20% 15% 20%;
-  padding: 80px;
+  padding: 60px;
   opacity: .9;
 }
 h3 {
   font-family: 'Raleway', sans-serif;
-  text-align: center;
   letter-spacing: 3px;
 }
 label {
   font-size: 20px;
+  margin: 10px;
 }
-.well #results {
+#results {
   font-size: 30px;
-  display: none;
+  /*display: none;*/
+  background: #D6EAF8;
+  opacity: .9;
+}
+#results h3 {
+  margin: 0;
+}
+p.list {
+  font-size: 20px;
+  margin: 15px;
 }
 @media query {
 

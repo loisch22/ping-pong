@@ -38,7 +38,7 @@ _{Email: loisch22@gmail.com}_
 
 ## Technologies Used
 
-_{Javascript, jQuery}_
+_{Bootstrap, Javascript, jQuery}_
 
 ### License
 

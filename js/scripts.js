@@ -7,6 +7,9 @@ debugger;
     if (i % 3 === 0) {
       var ping = [i].slice();
       numberOutput.push(ping = '"ping"');
+    } else if (i % 5 === 0) {
+      var pong = [i].slice();
+      numberOutput.push(pong = '"pong"'); 
     } else if (copyNumber[i] === copyNumber) {
       numberOutput.push(i);
     } else {

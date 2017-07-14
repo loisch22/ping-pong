@@ -4,14 +4,15 @@ var pingPong = function(inputNumber) {
   var numberOutput = [];
 debugger;
   for (i = 1; i <= copyNumber; i++) {
-    if (copyNumber[i] === copyNumber) {
+    if (copyNumber[i] / 3) {
+      numberOutput.push([i] = "ping");
+    } else if (copyNumber[i] === copyNumber) {
       numberOutput.push(i);
     } else {
       numberOutput.push(i);
     }
   };
-    console.log(numberOutput);
-    return numberOutput;
+    return numberOutput.toString();
 };
 
 
@@ -26,9 +27,10 @@ debugger;
 
 
 $(document).ready(function() {
-  $("form#pingForm").submit(function() {
+  $("form#pingForm").submit(function(event) {
+    event.preventDefault();
     var inputNumber = parseInt($("input#number").val());
     var resultOutput = pingPong(inputNumber);
-    $("#results").show(resultOutput);
+    $("#results").text(resultOutput);
   });
 });

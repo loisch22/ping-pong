@@ -29,9 +29,15 @@ $(document).ready(function() {
     if (inputNumber === '' || inputNumber === null || inputNumber === NaN || inputNumber === undefined) {
       alert("Don't forget to enter a number!");
     }
-    
-    $("#results").text(resultOutput);
 
+    $("#results").show();
+    $("form#pingForm").hide();
+    $(".list").text(resultOutput);
+
+    $("#button").click(function() {
+      $("#results").hide();
+      $("form#pingForm").show();
+    });
     event.preventDefault();
   });
 });

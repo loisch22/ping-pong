@@ -1,4 +1,4 @@
-# _{Ping Pong}_
+# _Ping Pong_
 
 #### _The Ping Pong web application that counts up to the given number with a few exceptions, {July 14, 2017}_
 
@@ -10,13 +10,8 @@ _{This web application allows users to input a number. The application, then, st
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Open a browser_
+* _Enter the url: https://github.com/loisch22/ping-pong.git_
 
 ##Specifications
 

@@ -1,4 +1,4 @@
-# _{Application Name}_
+# _{Ping Pong}_
 
 #### _The Ping Pong web application that counts up to the given number with a few exceptions, {July 14, 2017}_
 

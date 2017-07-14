@@ -6,11 +6,6 @@
             box-sizing: border-box;
 }
 body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
   vertical-align: baseline;
   background-image: url("../img/ping-pong.jpg");
   background-repeat: no-repeat;
@@ -23,6 +18,10 @@ body {
   opacity: 1px;
   text-align: center;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }
 h1 {
   font-size: 80px;
@@ -39,6 +38,7 @@ h1 {
 h3 {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 3px;
+  margin-bottom: 10px;
 }
 label {
   font-size: 20px;
@@ -46,16 +46,20 @@ label {
 }
 #results {
   font-size: 30px;
-  /*display: none;*/
-  background: #D6EAF8;
-  opacity: .9;
+  display: none;
 }
 #results h3 {
-  margin: 0;
+  margin-bottom: 15px;
 }
 p.list {
   font-size: 20px;
   margin: 15px;
+  padding: 15px;
+  border: solid;
+}
+.btn-default {
+  font-size: 18px;
+  letter-spacing: 3px;
 }
 @media query {
 

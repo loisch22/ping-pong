@@ -1,6 +1,6 @@
 # _Ping Pong_
 
-#### _The Ping Pong web application that counts up to the given number with a few exceptions, {July 14, 2017}_
+#### _This Ping Pong web application counts up to a given number and returns a string of numbers starting at 1 up to the given number. {July 14, 2017}_
 
 #### By _**Lois C.**_
 

@@ -30,13 +30,13 @@ $(document).ready(function() {
       alert("Don't forget to enter a number!");
     }
 
-    $("#results").show();
+    $("#results").fadeIn();
     $("form#pingForm").hide();
     $(".list").text(resultOutput);
 
     $("#button").click(function() {
       $("#results").hide();
-      $("form#pingForm").show();
+      $("form#pingForm").fadeIn();
     });
     event.preventDefault();
   });

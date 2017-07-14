@@ -23,12 +23,9 @@ var pingPong = function(inputNumber) {
 
 $(document).ready(function() {
   $("form#pingForm").submit(function(event) {
+
     var inputNumber = parseInt($("input#number").val());
     var resultOutput = pingPong(inputNumber);
-
-    if (inputNumber === '' || inputNumber === null || inputNumber === NaN || inputNumber === undefined) {
-      alert("Don't forget to enter a number!");
-    }
 
     $("#results").fadeIn();
     $("form#pingForm").hide();

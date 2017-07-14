@@ -25,7 +25,7 @@ _{This web application allows users to input a number. The application, then, st
 
 ## Known Bugs
 
-_{Not mobile responsive}_
+_{No known bugs}_
 
 ## Support and contact details
 

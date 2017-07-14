@@ -1,4 +1,3 @@
-
 var pingPong = function(inputNumber) {
   var copyNumber = inputNumber;
   var numberOutput = [];
@@ -22,22 +21,17 @@ var pingPong = function(inputNumber) {
     return numberOutput;
 };
 
-
-
-
-
-
-
-
-
-
-
-
 $(document).ready(function() {
   $("form#pingForm").submit(function(event) {
-    event.preventDefault();
     var inputNumber = parseInt($("input#number").val());
     var resultOutput = pingPong(inputNumber);
+
+    if (inputNumber === '' || inputNumber === null || inputNumber === NaN || inputNumber === undefined) {
+      alert("Don't forget to enter a number!");
+    }
+
     $("#results").text(resultOutput);
+
+    event.preventDefault();
   });
 });

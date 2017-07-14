@@ -1,15 +1,17 @@
+
 var pingPong = function(inputNumber) {
-  var copyInput = inputNumber;
-  var copyArr = [];
+  var copyNumber = inputNumber;
+  var numberOutput = [];
 debugger;
-  for (i = 0; i <= copyInput; i++) {
-    if (copyInput[i] != copyInput || copyInput[i] === copyInput) {
-      copyArr.push([i]);
-    } 
-    return copyArr;
-  }
-
-
+  for (i = 1; i <= copyNumber; i++) {
+    if (copyNumber[i] === copyNumber) {
+      numberOutput.push(i);
+    } else {
+      numberOutput.push(i);
+    }
+  };
+    console.log(numberOutput);
+    return numberOutput;
 };
 
 
@@ -25,9 +27,8 @@ debugger;
 
 $(document).ready(function() {
   $("form#pingForm").submit(function() {
-    var inputNumber = $("input#number").val();
+    var inputNumber = parseInt($("input#number").val());
     var resultOutput = pingPong(inputNumber);
-    $("ul#listOutput").append(resultOutput);
-    $("#results").show();
+    $("#results").show(resultOutput);
   });
 });

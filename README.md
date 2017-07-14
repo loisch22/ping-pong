@@ -26,11 +26,11 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 | It can replace numbers divisible by 3 with "ping"     | 3       | 1, 2, "ping"      |
 | It can replace numbers divisible by 5 with "pong"     | 5       | 1, 2, 3, 4, "pong"      |
 | It can replace numbers divisible by 15 with "ping-pong"     | 15       | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, "ping-pong"      |
-| It can recognize none numbers and give error message     | "hello"       | "Enter a number"      |
+| It can recognize none numbers and empty forms to give error message     | "hello"       | "Don't forget to enter a number!"      |
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{Alert will not show when form field is blank. }_
 
 ## Support and contact details
 

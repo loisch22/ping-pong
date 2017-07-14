@@ -25,7 +25,7 @@ _{This web application allows users to input a number. The application, then, st
 
 ## Known Bugs
 
-_{Alert will not show when form field is blank or for non-numbers. }_
+_{Not mobile responsive}_
 
 ## Support and contact details
 

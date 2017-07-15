@@ -13,7 +13,7 @@ _{This web application allows users to input a number. The application, then, st
 * _Open a browser_
 * _Enter the url: https://github.com/loisch22/ping-pong.git_
 
-##Specifications
+_**Specifications**_
 
 | Behavior | Input example| Output example |
 | :---         |     :---:      |          ---: |
